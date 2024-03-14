@@ -1,1 +1,0 @@
-# ItsMeRizall.github.io
