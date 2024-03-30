@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./src/style.css" rel="stylesheet">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <title>3013 - Moch Syaiful Rizal</title>
+</head>
+<body class="poppins">
+  <div class="flex items-center justify-center w-full h-screen">
+    <div class="flex flex-col items-center justify-center">
+      <h1 class="font-bold text-4xl mb-20" id="title">Yakin kan Profesi Anda !</h1>
+       <div id="card" class="flex flex-col justify-center rounded-[30px] items-center relative bg-[#DBDBDB] px-24 pt-32 pb-8">
+        <img id="img-profession" class="absolute top-12 -translate-y-1/2" src="./src/assets/detektif.png" alt="detektif">
+        <div class="px-24 bg-[#FEEEE2] py-4 rounded-2xl z-0">
+          <h1 id="text-confirmation" class="text-xl font-bold ">Apakah anda seorang Detective ?</h1>
+        </div>
+        <div id="btn-box" class="flex mt-8 gap-5">
+          <button id="yes-btn" class="bg-green-500 px-14 py-2 rounded-xl font-bold hover:bg-green-600 hover:text-white " >Iya!!</button>
+          <button id="no-btn" class="bg-red-500 px-14 py-2 text-white rounded-xl font-bold hover:bg-red-700 hover:text-black">Tidak!!</button>
+        </div>
+       </div>
+    </div>
+  </div>
+  <script src="./src/script.js"></script>
+</body>
+</html>

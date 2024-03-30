@@ -511,6 +511,7 @@ h1{
 
     .driver .driver-card:nth-child(2) a{
         background-color: #275E87;
+        padding: 15px;
         width: 200px;
     }
   }
